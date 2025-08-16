@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <main>
+      <section id="contact">
+        <h2>Contact Form</h2>
+        <form id="contactForm">
+          <label>Name:
+            <input type="text" id="name" required>
+          </label>
+          <label>Email:
+            <input type="email" id="email" required>
+          </label>
+          <label>Message:
+            <textarea id="message" required></textarea>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section id="todo">
+        <h2>My To-Do List</h2>
+        <input type="text" id="todoInput" placeholder="Enter a task">
+        <button id="addBtn">Add</button>
+        <ul id="todoList"></ul>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
